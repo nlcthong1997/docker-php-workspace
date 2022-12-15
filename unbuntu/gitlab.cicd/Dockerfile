@@ -45,9 +45,3 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /var/www/html
-
-# EXPOSE 80
-
-#ENTRYPOINT ["/usr/sbin/apache2", "-k", "start"]
-# ENTRYPOINT [ "apachectl" ]
-# CMD [ "-D", "FOREGROUND" ]
